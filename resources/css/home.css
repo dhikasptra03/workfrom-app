@@ -1,0 +1,116 @@
+.frame1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    position: relative;
+}
+
+.frame1 .div {
+    flex-direction: column;
+    gap: 40px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frame1 .text-wrapper {
+    position: relative;
+    max-width: 622px;
+    font-family: "Roboto-Bold", Helvetica, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame1 .p {
+    position: relative;
+    max-width: 622px;
+    font-family: "Roboto-Regular", Helvetica, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    /* Ganti dengan warna yang sesuai */
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: justify;
+}
+
+.frame1 .div-2 {
+    gap: 60px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frame1 .image-place-holder {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+}
+
+.frame1 .placeholder {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.p {
+    font-family: "Roboto-Regular", Helvetica, sans-serif;
+    color: black;
+}
+
+.card {
+    border: none;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 20px;
+}
+
+.card2:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px white;
+}
+
+.card-body {
+    background-color: #fff;
+    border-top: 0px solid #dee2e6;
+    padding: 15px;
+    width: 100%;
+}
+
+.card-title {
+    font-family: "Roboto-Regular", Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.card-text {
+    font-family: "Roboto-Regular", Helvetica, sans-serif;
+}
+
+.btn {
+    font-family: "Roboto-Regular", Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.frame2 {
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f1fa;
+}
+
+.frame2 .form-group {
+    margin-top: 20px;
+    padding: 5px;
+}
